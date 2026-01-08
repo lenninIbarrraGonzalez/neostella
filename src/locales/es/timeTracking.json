@@ -1,0 +1,54 @@
+{
+  "title": "Registro de Tiempo",
+  "subtitle": "Registre y gestione sus horas facturables",
+  "logTime": "Registrar Tiempo",
+  "form": {
+    "case": "Caso",
+    "casePlaceholder": "Seleccione un caso",
+    "description": "Descripción",
+    "descriptionPlaceholder": "¿En qué trabajó?",
+    "duration": "Duración",
+    "durationPlaceholder": "ej., 2h 30m o 2:30",
+    "durationHint": "Formato: 2h 30m, 2:30, o minutos (150)",
+    "date": "Fecha",
+    "billable": "Facturable",
+    "billableHint": "Marque si este tiempo es facturable al cliente"
+  },
+  "list": {
+    "date": "Fecha",
+    "case": "Caso",
+    "description": "Descripción",
+    "duration": "Duración",
+    "billable": "Facturable",
+    "user": "Usuario",
+    "actions": "Acciones"
+  },
+  "filters": {
+    "all": "Todas las Entradas",
+    "myEntries": "Mis Entradas",
+    "case": "Caso",
+    "dateRange": "Rango de Fechas",
+    "billable": "Solo Facturables",
+    "nonBillable": "Solo No Facturables"
+  },
+  "summary": {
+    "title": "Resumen de Tiempo",
+    "today": "Hoy",
+    "thisWeek": "Esta Semana",
+    "thisMonth": "Este Mes",
+    "total": "Total",
+    "billable": "Facturable",
+    "nonBillable": "No Facturable"
+  },
+  "messages": {
+    "created": "Tiempo registrado exitosamente",
+    "updated": "Entrada de tiempo actualizada exitosamente",
+    "deleted": "Entrada de tiempo eliminada exitosamente",
+    "confirmDelete": "¿Está seguro que desea eliminar esta entrada de tiempo?"
+  },
+  "empty": {
+    "title": "Sin Entradas de Tiempo",
+    "description": "No ha registrado ningún tiempo aún.",
+    "action": "Registrar Tiempo"
+  }
+}

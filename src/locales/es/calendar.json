@@ -1,0 +1,37 @@
+{
+  "title": "Calendario",
+  "subtitle": "Vea todas las fechas límite y fechas importantes",
+  "views": {
+    "month": "Mes",
+    "week": "Semana",
+    "day": "Día",
+    "list": "Lista"
+  },
+  "navigation": {
+    "today": "Hoy",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "events": {
+    "caseDeadline": "Fecha Límite de Caso",
+    "taskDeadline": "Fecha Límite de Tarea",
+    "hearing": "Audiencia",
+    "meeting": "Reunión"
+  },
+  "sidebar": {
+    "upcoming": "Próximos Vencimientos",
+    "thisWeek": "Esta Semana",
+    "nextWeek": "Próxima Semana",
+    "later": "Más Adelante"
+  },
+  "empty": {
+    "noEvents": "No hay eventos para este período",
+    "noUpcoming": "No hay próximos vencimientos"
+  },
+  "legend": {
+    "title": "Leyenda",
+    "case": "Fecha Límite de Caso",
+    "task": "Fecha Límite de Tarea",
+    "overdue": "Vencido"
+  }
+}

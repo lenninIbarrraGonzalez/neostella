@@ -1,0 +1,101 @@
+{
+  "title": "Casos",
+  "subtitle": "Gestione todos sus casos legales",
+  "newCase": "Nuevo Caso",
+  "editCase": "Editar Caso",
+  "caseDetail": "Detalle del Caso",
+  "caseNotFound": "Caso no encontrado",
+  "list": {
+    "caseNumber": "Caso #",
+    "caseTitle": "Título",
+    "client": "Cliente",
+    "status": "Estado",
+    "priority": "Prioridad",
+    "assignedTo": "Asignado A",
+    "deadline": "Fecha Límite",
+    "createdAt": "Creado",
+    "type": "Tipo",
+    "actions": "Acciones",
+    "noDeadline": "Sin fecha límite"
+  },
+  "filters": {
+    "all": "Todos",
+    "status": "Estado",
+    "type": "Tipo",
+    "priority": "Prioridad",
+    "assignedTo": "Asignado A",
+    "dateRange": "Rango de Fechas",
+    "clearFilters": "Limpiar Filtros"
+  },
+  "form": {
+    "title": "Título",
+    "titlePlaceholder": "Ingrese el título del caso",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Ingrese la descripción del caso",
+    "client": "Cliente",
+    "clientPlaceholder": "Seleccione un cliente",
+    "type": "Tipo de Caso",
+    "typePlaceholder": "Seleccione el tipo de caso",
+    "priority": "Prioridad",
+    "priorityPlaceholder": "Seleccione la prioridad",
+    "assignedTo": "Asignado A",
+    "assignedToPlaceholder": "Seleccione abogados",
+    "deadline": "Fecha Límite",
+    "deadlinePlaceholder": "Seleccione fecha límite"
+  },
+  "tabs": {
+    "summary": "Resumen",
+    "activity": "Actividad",
+    "tasks": "Tareas",
+    "documents": "Documentos",
+    "time": "Tiempo",
+    "notes": "Notas"
+  },
+  "detail": {
+    "caseInfo": "Información del Caso",
+    "clientInfo": "Información del Cliente",
+    "created": "Creado",
+    "updated": "Última Actualización",
+    "createdBy": "Creado Por",
+    "noDescription": "Sin descripción"
+  },
+  "activity": {
+    "title": "Línea de Tiempo",
+    "noActivity": "No hay actividad registrada aún"
+  },
+  "tasks": {
+    "title": "Tareas",
+    "addTask": "Agregar Tarea",
+    "noTasks": "No hay tareas para este caso"
+  },
+  "documents": {
+    "title": "Documentos",
+    "upload": "Subir Documento",
+    "noDocuments": "No hay documentos subidos aún",
+    "uploadHint": "Arrastre archivos aquí o haga clic para buscar"
+  },
+  "time": {
+    "title": "Registro de Tiempo",
+    "addEntry": "Registrar Tiempo",
+    "noEntries": "No hay tiempo registrado",
+    "totalTime": "Tiempo Total"
+  },
+  "notes": {
+    "title": "Notas",
+    "addNote": "Agregar Nota",
+    "noNotes": "No hay notas agregadas",
+    "placeholder": "Escriba su nota aquí..."
+  },
+  "actions": {
+    "changeStatus": "Cambiar Estado",
+    "assign": "Asignar",
+    "duplicate": "Duplicar"
+  },
+  "messages": {
+    "created": "Caso creado exitosamente",
+    "updated": "Caso actualizado exitosamente",
+    "deleted": "Caso eliminado exitosamente",
+    "statusChanged": "Estado del caso cambiado a {{status}}",
+    "confirmDelete": "¿Está seguro que desea eliminar este caso? Esta acción no se puede deshacer."
+  }
+}

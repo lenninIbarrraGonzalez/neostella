@@ -1,0 +1,69 @@
+{
+  "title": "Tasks",
+  "subtitle": "Manage and track all your tasks",
+  "newTask": "New Task",
+  "editTask": "Edit Task",
+  "list": {
+    "title": "Title",
+    "case": "Case",
+    "status": "Status",
+    "priority": "Priority",
+    "assignedTo": "Assigned To",
+    "deadline": "Deadline",
+    "actions": "Actions",
+    "noDeadline": "No deadline"
+  },
+  "filters": {
+    "all": "All Tasks",
+    "myTasks": "My Tasks",
+    "status": "Status",
+    "priority": "Priority",
+    "case": "Case",
+    "assignedTo": "Assigned To",
+    "overdue": "Overdue",
+    "dueSoon": "Due Soon"
+  },
+  "form": {
+    "title": "Title",
+    "titlePlaceholder": "Enter task title",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter task description",
+    "case": "Case",
+    "casePlaceholder": "Select a case",
+    "priority": "Priority",
+    "priorityPlaceholder": "Select priority",
+    "assignedTo": "Assigned To",
+    "assignedToPlaceholder": "Select assignee",
+    "deadline": "Deadline",
+    "deadlinePlaceholder": "Select deadline date"
+  },
+  "status": {
+    "pending": "Pending",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "actions": {
+    "markComplete": "Mark Complete",
+    "markInProgress": "Mark In Progress",
+    "reopen": "Reopen"
+  },
+  "messages": {
+    "created": "Task created successfully",
+    "updated": "Task updated successfully",
+    "deleted": "Task deleted successfully",
+    "completed": "Task marked as completed",
+    "confirmDelete": "Are you sure you want to delete this task?"
+  },
+  "empty": {
+    "title": "No Tasks",
+    "description": "You don't have any tasks yet.",
+    "action": "Create Task"
+  },
+  "deadline": {
+    "overdue": "Overdue",
+    "dueToday": "Due Today",
+    "dueTomorrow": "Due Tomorrow",
+    "dueSoon": "Due Soon"
+  }
+}

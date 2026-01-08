@@ -1,0 +1,69 @@
+{
+  "title": "Tareas",
+  "subtitle": "Gestione y realice seguimiento de todas sus tareas",
+  "newTask": "Nueva Tarea",
+  "editTask": "Editar Tarea",
+  "list": {
+    "title": "Título",
+    "case": "Caso",
+    "status": "Estado",
+    "priority": "Prioridad",
+    "assignedTo": "Asignado A",
+    "deadline": "Fecha Límite",
+    "actions": "Acciones",
+    "noDeadline": "Sin fecha límite"
+  },
+  "filters": {
+    "all": "Todas las Tareas",
+    "myTasks": "Mis Tareas",
+    "status": "Estado",
+    "priority": "Prioridad",
+    "case": "Caso",
+    "assignedTo": "Asignado A",
+    "overdue": "Vencidas",
+    "dueSoon": "Por Vencer"
+  },
+  "form": {
+    "title": "Título",
+    "titlePlaceholder": "Ingrese el título de la tarea",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Ingrese la descripción de la tarea",
+    "case": "Caso",
+    "casePlaceholder": "Seleccione un caso",
+    "priority": "Prioridad",
+    "priorityPlaceholder": "Seleccione la prioridad",
+    "assignedTo": "Asignado A",
+    "assignedToPlaceholder": "Seleccione asignado",
+    "deadline": "Fecha Límite",
+    "deadlinePlaceholder": "Seleccione fecha límite"
+  },
+  "status": {
+    "pending": "Pendiente",
+    "in_progress": "En Progreso",
+    "completed": "Completada",
+    "cancelled": "Cancelada"
+  },
+  "actions": {
+    "markComplete": "Marcar Completa",
+    "markInProgress": "Marcar En Progreso",
+    "reopen": "Reabrir"
+  },
+  "messages": {
+    "created": "Tarea creada exitosamente",
+    "updated": "Tarea actualizada exitosamente",
+    "deleted": "Tarea eliminada exitosamente",
+    "completed": "Tarea marcada como completada",
+    "confirmDelete": "¿Está seguro que desea eliminar esta tarea?"
+  },
+  "empty": {
+    "title": "Sin Tareas",
+    "description": "No tiene ninguna tarea aún.",
+    "action": "Crear Tarea"
+  },
+  "deadline": {
+    "overdue": "Vencida",
+    "dueToday": "Vence Hoy",
+    "dueTomorrow": "Vence Mañana",
+    "dueSoon": "Por Vencer"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "title": "Configuración",
+  "subtitle": "Gestione la configuración de la firma",
+  "sections": {
+    "firm": "Información de la Firma",
+    "users": "Gestión de Usuarios",
+    "caseStatuses": "Estados de Casos",
+    "caseTypes": "Tipos de Casos",
+    "preferences": "Preferencias"
+  },
+  "firm": {
+    "title": "Información de la Firma",
+    "name": "Nombre de la Firma",
+    "namePlaceholder": "Ingrese el nombre de la firma",
+    "email": "Correo",
+    "emailPlaceholder": "Ingrese el correo de la firma",
+    "phone": "Teléfono",
+    "phonePlaceholder": "Ingrese el número de teléfono",
+    "address": "Dirección",
+    "addressPlaceholder": "Ingrese la dirección de la firma",
+    "save": "Guardar Cambios"
+  },
+  "users": {
+    "title": "Gestión de Usuarios",
+    "subtitle": "Gestione los usuarios de la firma y sus roles",
+    "newUser": "Nuevo Usuario",
+    "editUser": "Editar Usuario",
+    "list": {
+      "name": "Nombre",
+      "email": "Correo",
+      "role": "Rol",
+      "status": "Estado",
+      "createdAt": "Creado",
+      "actions": "Acciones"
+    },
+    "form": {
+      "name": "Nombre Completo",
+      "namePlaceholder": "Ingrese el nombre del usuario",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "Ingrese el correo electrónico",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Ingrese la contraseña",
+      "role": "Rol",
+      "rolePlaceholder": "Seleccione el rol",
+      "active": "Activo"
+    },
+    "actions": {
+      "activate": "Activar",
+      "deactivate": "Desactivar",
+      "resetPassword": "Restablecer Contraseña"
+    },
+    "messages": {
+      "created": "Usuario creado exitosamente",
+      "updated": "Usuario actualizado exitosamente",
+      "deleted": "Usuario eliminado exitosamente",
+      "activated": "Usuario activado",
+      "deactivated": "Usuario desactivado",
+      "confirmDelete": "¿Está seguro que desea eliminar este usuario?",
+      "confirmDeactivate": "¿Está seguro que desea desactivar este usuario?"
+    }
+  },
+  "statuses": {
+    "title": "Estados de Casos",
+    "subtitle": "Configure los estados disponibles para casos",
+    "name": "Nombre del Estado",
+    "color": "Color",
+    "order": "Orden",
+    "default": "Estado por Defecto"
+  },
+  "types": {
+    "title": "Tipos de Casos",
+    "subtitle": "Configure los tipos de casos disponibles",
+    "name": "Nombre del Tipo",
+    "category": "Categoría"
+  },
+  "preferences": {
+    "title": "Preferencias",
+    "language": "Idioma",
+    "theme": "Tema",
+    "dateFormat": "Formato de Fecha",
+    "timezone": "Zona Horaria"
+  },
+  "danger": {
+    "title": "Zona de Peligro",
+    "resetData": "Restablecer Datos de Demo",
+    "resetDataDescription": "Restablezca todos los datos al estado inicial de demo. Esta acción no se puede deshacer.",
+    "resetDataConfirm": "¿Está seguro que desea restablecer todos los datos? Esto eliminará todos los casos, clientes, tareas y restaurará los datos de demo.",
+    "resetDataButton": "Restablecer Todos los Datos"
+  },
+  "messages": {
+    "saved": "Configuración guardada exitosamente",
+    "dataReset": "Los datos han sido restablecidos al estado inicial"
+  }
+}

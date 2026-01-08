@@ -1,0 +1,128 @@
+{
+  "appName": "Neostella Case Manager",
+  "firmName": "García & Asociados",
+  "nav": {
+    "dashboard": "Panel",
+    "cases": "Casos",
+    "clients": "Clientes",
+    "tasks": "Tareas",
+    "calendar": "Calendario",
+    "timeTracking": "Registro de Tiempo",
+    "settings": "Configuración",
+    "users": "Usuarios",
+    "logout": "Cerrar Sesión"
+  },
+  "actions": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "add": "Agregar",
+    "remove": "Quitar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "export": "Exportar",
+    "import": "Importar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "submit": "Enviar",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "view": "Ver",
+    "viewAll": "Ver Todo",
+    "clear": "Limpiar",
+    "reset": "Restablecer",
+    "refresh": "Actualizar"
+  },
+  "status": {
+    "new": "Nuevo",
+    "under_review": "En Revisión",
+    "in_progress": "En Progreso",
+    "pending_client": "Pendiente Cliente",
+    "resolved": "Resuelto",
+    "closed": "Cerrado",
+    "pending": "Pendiente",
+    "completed": "Completado",
+    "cancelled": "Cancelado",
+    "active": "Activo",
+    "inactive": "Inactivo"
+  },
+  "priority": {
+    "low": "Baja",
+    "medium": "Media",
+    "high": "Alta",
+    "urgent": "Urgente"
+  },
+  "messages": {
+    "confirmDelete": "¿Está seguro que desea eliminar este elemento?",
+    "confirmDeleteTitle": "Confirmar Eliminación",
+    "saved": "Cambios guardados exitosamente",
+    "deleted": "Elemento eliminado exitosamente",
+    "created": "Elemento creado exitosamente",
+    "updated": "Elemento actualizado exitosamente",
+    "error": "Ocurrió un error",
+    "loading": "Cargando...",
+    "noData": "No hay datos disponibles",
+    "noResults": "No se encontraron resultados",
+    "required": "Este campo es requerido",
+    "invalidEmail": "Por favor ingrese un correo electrónico válido",
+    "invalidPhone": "Por favor ingrese un número de teléfono válido",
+    "minLength": "Debe tener al menos {{min}} caracteres",
+    "maxLength": "Debe tener como máximo {{max}} caracteres",
+    "passwordMismatch": "Las contraseñas no coinciden",
+    "success": "Éxito",
+    "warning": "Advertencia",
+    "info": "Información"
+  },
+  "validation": {
+    "required": "Este campo es requerido",
+    "email": "Por favor ingrese un correo electrónico válido",
+    "phone": "Por favor ingrese un número de teléfono válido",
+    "minLength": "Debe tener al menos {{min}} caracteres",
+    "maxLength": "Debe tener como máximo {{max}} caracteres",
+    "passwordMatch": "Las contraseñas no coinciden",
+    "passwordLength": "La contraseña debe tener al menos 6 caracteres"
+  },
+  "pagination": {
+    "rowsPerPage": "Filas por página",
+    "of": "de",
+    "page": "Página"
+  },
+  "time": {
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "thisWeek": "Esta Semana",
+    "thisMonth": "Este Mes",
+    "lastMonth": "Mes Pasado"
+  },
+  "language": {
+    "en": "Inglés",
+    "es": "Español",
+    "select": "Seleccionar Idioma"
+  },
+  "roles": {
+    "admin": "Administrador",
+    "attorney": "Abogado",
+    "paralegal": "Paralegal"
+  },
+  "clientType": {
+    "individual": "Individual",
+    "business": "Empresa"
+  },
+  "caseType": {
+    "personal_injury": "Lesiones Personales",
+    "auto_accident": "Accidente de Auto",
+    "immigration_visa": "Inmigración - Visa",
+    "immigration_citizenship": "Inmigración - Ciudadanía",
+    "family_divorce": "Familia - Divorcio",
+    "family_custody": "Familia - Custodia"
+  },
+  "error": {
+    "title": "Algo salió mal",
+    "description": "Ocurrió un error inesperado. Por favor, inténtelo de nuevo.",
+    "tryAgain": "Intentar de Nuevo",
+    "reloadPage": "Recargar Página"
+  }
+}

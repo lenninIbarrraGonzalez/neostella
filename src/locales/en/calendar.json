@@ -1,0 +1,37 @@
+{
+  "title": "Calendar",
+  "subtitle": "View all deadlines and important dates",
+  "views": {
+    "month": "Month",
+    "week": "Week",
+    "day": "Day",
+    "list": "List"
+  },
+  "navigation": {
+    "today": "Today",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "events": {
+    "caseDeadline": "Case Deadline",
+    "taskDeadline": "Task Deadline",
+    "hearing": "Hearing",
+    "meeting": "Meeting"
+  },
+  "sidebar": {
+    "upcoming": "Upcoming Deadlines",
+    "thisWeek": "This Week",
+    "nextWeek": "Next Week",
+    "later": "Later"
+  },
+  "empty": {
+    "noEvents": "No events for this period",
+    "noUpcoming": "No upcoming deadlines"
+  },
+  "legend": {
+    "title": "Legend",
+    "case": "Case Deadline",
+    "task": "Task Deadline",
+    "overdue": "Overdue"
+  }
+}

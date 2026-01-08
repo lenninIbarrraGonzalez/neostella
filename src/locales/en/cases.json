@@ -1,0 +1,101 @@
+{
+  "title": "Cases",
+  "subtitle": "Manage all your legal cases",
+  "newCase": "New Case",
+  "editCase": "Edit Case",
+  "caseDetail": "Case Detail",
+  "caseNotFound": "Case not found",
+  "list": {
+    "caseNumber": "Case #",
+    "caseTitle": "Title",
+    "client": "Client",
+    "status": "Status",
+    "priority": "Priority",
+    "assignedTo": "Assigned To",
+    "deadline": "Deadline",
+    "createdAt": "Created",
+    "type": "Type",
+    "actions": "Actions",
+    "noDeadline": "No deadline"
+  },
+  "filters": {
+    "all": "All",
+    "status": "Status",
+    "type": "Type",
+    "priority": "Priority",
+    "assignedTo": "Assigned To",
+    "dateRange": "Date Range",
+    "clearFilters": "Clear Filters"
+  },
+  "form": {
+    "title": "Title",
+    "titlePlaceholder": "Enter case title",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter case description",
+    "client": "Client",
+    "clientPlaceholder": "Select a client",
+    "type": "Case Type",
+    "typePlaceholder": "Select case type",
+    "priority": "Priority",
+    "priorityPlaceholder": "Select priority",
+    "assignedTo": "Assigned To",
+    "assignedToPlaceholder": "Select attorneys",
+    "deadline": "Deadline",
+    "deadlinePlaceholder": "Select deadline date"
+  },
+  "tabs": {
+    "summary": "Summary",
+    "activity": "Activity",
+    "tasks": "Tasks",
+    "documents": "Documents",
+    "time": "Time",
+    "notes": "Notes"
+  },
+  "detail": {
+    "caseInfo": "Case Information",
+    "clientInfo": "Client Information",
+    "created": "Created",
+    "updated": "Last Updated",
+    "createdBy": "Created By",
+    "noDescription": "No description provided"
+  },
+  "activity": {
+    "title": "Activity Timeline",
+    "noActivity": "No activity recorded yet"
+  },
+  "tasks": {
+    "title": "Tasks",
+    "addTask": "Add Task",
+    "noTasks": "No tasks for this case"
+  },
+  "documents": {
+    "title": "Documents",
+    "upload": "Upload Document",
+    "noDocuments": "No documents uploaded yet",
+    "uploadHint": "Drag and drop files here or click to browse"
+  },
+  "time": {
+    "title": "Time Entries",
+    "addEntry": "Log Time",
+    "noEntries": "No time entries recorded",
+    "totalTime": "Total Time"
+  },
+  "notes": {
+    "title": "Notes",
+    "addNote": "Add Note",
+    "noNotes": "No notes added yet",
+    "placeholder": "Write your note here..."
+  },
+  "actions": {
+    "changeStatus": "Change Status",
+    "assign": "Assign",
+    "duplicate": "Duplicate"
+  },
+  "messages": {
+    "created": "Case created successfully",
+    "updated": "Case updated successfully",
+    "deleted": "Case deleted successfully",
+    "statusChanged": "Case status changed to {{status}}",
+    "confirmDelete": "Are you sure you want to delete this case? This action cannot be undone."
+  }
+}

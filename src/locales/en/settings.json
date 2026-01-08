@@ -1,0 +1,94 @@
+{
+  "title": "Settings",
+  "subtitle": "Manage firm settings and configuration",
+  "sections": {
+    "firm": "Firm Information",
+    "users": "User Management",
+    "caseStatuses": "Case Statuses",
+    "caseTypes": "Case Types",
+    "preferences": "Preferences"
+  },
+  "firm": {
+    "title": "Firm Information",
+    "name": "Firm Name",
+    "namePlaceholder": "Enter firm name",
+    "email": "Email",
+    "emailPlaceholder": "Enter firm email",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter phone number",
+    "address": "Address",
+    "addressPlaceholder": "Enter firm address",
+    "save": "Save Changes"
+  },
+  "users": {
+    "title": "User Management",
+    "subtitle": "Manage firm users and their roles",
+    "newUser": "New User",
+    "editUser": "Edit User",
+    "list": {
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "createdAt": "Created",
+      "actions": "Actions"
+    },
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter user name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter email address",
+      "password": "Password",
+      "passwordPlaceholder": "Enter password",
+      "role": "Role",
+      "rolePlaceholder": "Select role",
+      "active": "Active"
+    },
+    "actions": {
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "resetPassword": "Reset Password"
+    },
+    "messages": {
+      "created": "User created successfully",
+      "updated": "User updated successfully",
+      "deleted": "User deleted successfully",
+      "activated": "User activated",
+      "deactivated": "User deactivated",
+      "confirmDelete": "Are you sure you want to delete this user?",
+      "confirmDeactivate": "Are you sure you want to deactivate this user?"
+    }
+  },
+  "statuses": {
+    "title": "Case Statuses",
+    "subtitle": "Configure available case statuses",
+    "name": "Status Name",
+    "color": "Color",
+    "order": "Order",
+    "default": "Default Status"
+  },
+  "types": {
+    "title": "Case Types",
+    "subtitle": "Configure available case types",
+    "name": "Type Name",
+    "category": "Category"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "language": "Language",
+    "theme": "Theme",
+    "dateFormat": "Date Format",
+    "timezone": "Timezone"
+  },
+  "danger": {
+    "title": "Danger Zone",
+    "resetData": "Reset Demo Data",
+    "resetDataDescription": "Reset all data to the initial demo state. This action cannot be undone.",
+    "resetDataConfirm": "Are you sure you want to reset all data? This will delete all cases, clients, tasks, and restore the demo data.",
+    "resetDataButton": "Reset All Data"
+  },
+  "messages": {
+    "saved": "Settings saved successfully",
+    "dataReset": "Data has been reset to initial state"
+  }
+}

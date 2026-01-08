@@ -1,0 +1,51 @@
+{
+  "title": "Clientes",
+  "subtitle": "Gestione la información de sus clientes",
+  "newClient": "Nuevo Cliente",
+  "editClient": "Editar Cliente",
+  "clientDetail": "Detalle del Cliente",
+  "clientNotFound": "Cliente no encontrado",
+  "list": {
+    "name": "Nombre",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "type": "Tipo",
+    "activeCases": "Casos Activos",
+    "createdAt": "Cliente Desde",
+    "actions": "Acciones"
+  },
+  "filters": {
+    "all": "Todos",
+    "type": "Tipo",
+    "individual": "Individual",
+    "business": "Empresa"
+  },
+  "form": {
+    "name": "Nombre Completo",
+    "namePlaceholder": "Ingrese el nombre del cliente",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "Ingrese el correo electrónico",
+    "phone": "Número de Teléfono",
+    "phonePlaceholder": "Ingrese el número de teléfono",
+    "address": "Dirección",
+    "addressPlaceholder": "Ingrese la dirección completa",
+    "type": "Tipo de Cliente",
+    "typePlaceholder": "Seleccione el tipo de cliente",
+    "notes": "Notas",
+    "notesPlaceholder": "Notas adicionales sobre este cliente"
+  },
+  "detail": {
+    "contactInfo": "Información de Contacto",
+    "associatedCases": "Casos Asociados",
+    "noCases": "No hay casos asociados con este cliente",
+    "clientSince": "Cliente Desde",
+    "totalCases": "Total de Casos",
+    "activeCases": "Casos Activos"
+  },
+  "messages": {
+    "created": "Cliente creado exitosamente",
+    "updated": "Cliente actualizado exitosamente",
+    "deleted": "Cliente eliminado exitosamente",
+    "confirmDelete": "¿Está seguro que desea eliminar este cliente? Todos los casos asociados serán afectados."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Panel",
+  "welcome": "¡Bienvenido de nuevo, {{name}}!",
+  "overview": "Aquí tiene un resumen de la actividad de su firma.",
+  "overviewPersonal": "Aquí tiene un resumen de su actividad.",
+  "stats": {
+    "totalCases": "Total de Casos",
+    "openCases": "Casos Abiertos",
+    "closedThisMonth": "Cerrados Este Mes",
+    "overdueTasks": "Tareas Vencidas",
+    "myCases": "Mis Casos",
+    "myTasks": "Mis Tareas",
+    "hoursToday": "Horas Hoy",
+    "hoursThisWeek": "Horas Esta Semana",
+    "pendingTasks": "Tareas Pendientes",
+    "upcomingDeadlines": "Próximos Vencimientos"
+  },
+  "charts": {
+    "casePipeline": "Pipeline de Casos",
+    "casesByType": "Casos por Tipo",
+    "casesByAttorney": "Casos por Abogado",
+    "timeByWeek": "Tiempo Registrado Esta Semana"
+  },
+  "sections": {
+    "recentActivity": "Actividad Reciente",
+    "upcomingDeadlines": "Próximos Vencimientos",
+    "myTasks": "Mis Tareas",
+    "quickActions": "Acciones Rápidas"
+  },
+  "quickActions": {
+    "newCase": "Nuevo Caso",
+    "newClient": "Nuevo Cliente",
+    "logTime": "Registrar Tiempo",
+    "viewCalendar": "Ver Calendario"
+  },
+  "activity": {
+    "caseCreated": "creó el caso",
+    "caseUpdated": "actualizó el caso",
+    "statusChanged": "cambió el estado a",
+    "taskCompleted": "completó la tarea",
+    "noteAdded": "agregó una nota a",
+    "timeLogged": "registró tiempo en",
+    "assigned": "fue asignado a"
+  },
+  "noUpcomingDeadlines": "No hay próximos vencimientos",
+  "noRecentActivity": "No hay actividad reciente",
+  "noPendingTasks": "No hay tareas pendientes",
+  "viewAllCases": "Ver Todos los Casos",
+  "viewAllTasks": "Ver Todas las Tareas"
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Dashboard",
+  "welcome": "Welcome back, {{name}}!",
+  "overview": "Here's an overview of your firm's activity.",
+  "overviewPersonal": "Here's an overview of your activity.",
+  "stats": {
+    "totalCases": "Total Cases",
+    "openCases": "Open Cases",
+    "closedThisMonth": "Closed This Month",
+    "overdueTasks": "Overdue Tasks",
+    "myCases": "My Cases",
+    "myTasks": "My Tasks",
+    "hoursToday": "Hours Today",
+    "hoursThisWeek": "Hours This Week",
+    "pendingTasks": "Pending Tasks",
+    "upcomingDeadlines": "Upcoming Deadlines"
+  },
+  "charts": {
+    "casePipeline": "Case Pipeline",
+    "casesByType": "Cases by Type",
+    "casesByAttorney": "Cases by Attorney",
+    "timeByWeek": "Time Logged This Week"
+  },
+  "sections": {
+    "recentActivity": "Recent Activity",
+    "upcomingDeadlines": "Upcoming Deadlines",
+    "myTasks": "My Tasks",
+    "quickActions": "Quick Actions"
+  },
+  "quickActions": {
+    "newCase": "New Case",
+    "newClient": "New Client",
+    "logTime": "Log Time",
+    "viewCalendar": "View Calendar"
+  },
+  "activity": {
+    "caseCreated": "created case",
+    "caseUpdated": "updated case",
+    "statusChanged": "changed status to",
+    "taskCompleted": "completed task",
+    "noteAdded": "added a note to",
+    "timeLogged": "logged time on",
+    "assigned": "was assigned to"
+  },
+  "noUpcomingDeadlines": "No upcoming deadlines",
+  "noRecentActivity": "No recent activity",
+  "noPendingTasks": "No pending tasks",
+  "viewAllCases": "View All Cases",
+  "viewAllTasks": "View All Tasks"
+}
