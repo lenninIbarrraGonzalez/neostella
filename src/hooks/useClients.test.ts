@@ -9,7 +9,9 @@ const mockClients: Client[] = [
     name: 'Alice Johnson',
     email: 'alice@example.com',
     phone: '555-111-1111',
+    address: '123 Main St',
     type: 'individual',
+    notes: 'Notes for Alice',
     createdAt: new Date(),
     updatedAt: new Date(),
   },
@@ -18,7 +20,9 @@ const mockClients: Client[] = [
     name: 'Bob Smith Corp',
     email: 'bob@company.com',
     phone: '555-222-2222',
-    type: 'organization',
+    address: '456 Business Ave',
+    type: 'business',
+    notes: 'Business client',
     createdAt: new Date(),
     updatedAt: new Date(),
   },
@@ -27,7 +31,9 @@ const mockClients: Client[] = [
     name: 'Charlie Brown',
     email: 'charlie@email.com',
     phone: '555-333-3333',
+    address: '789 Oak St',
     type: 'individual',
+    notes: 'Notes for Charlie',
     createdAt: new Date(),
     updatedAt: new Date(),
   },
@@ -41,8 +47,11 @@ const mockCases: Case[] = [
     description: 'Description',
     type: 'personal_injury',
     status: 'new',
+    priority: 'high',
     clientId: 'client-1',
     assignedTo: ['user-1'],
+    deadline: new Date(),
+    createdBy: 'user-1',
     createdAt: new Date(),
     updatedAt: new Date(),
   },
@@ -53,8 +62,11 @@ const mockCases: Case[] = [
     description: 'Description',
     type: 'auto_accident',
     status: 'in_progress',
+    priority: 'medium',
     clientId: 'client-1',
     assignedTo: ['user-1'],
+    deadline: new Date(),
+    createdBy: 'user-1',
     createdAt: new Date(),
     updatedAt: new Date(),
   },
@@ -65,8 +77,11 @@ const mockCases: Case[] = [
     description: 'Description',
     type: 'family_divorce',
     status: 'closed',
+    priority: 'low',
     clientId: 'client-1',
     assignedTo: ['user-1'],
+    deadline: new Date(),
+    createdBy: 'user-1',
     createdAt: new Date(),
     updatedAt: new Date(),
   },
@@ -77,8 +92,11 @@ const mockCases: Case[] = [
     description: 'Description',
     type: 'immigration_visa',
     status: 'new',
+    priority: 'urgent',
     clientId: 'client-2',
     assignedTo: ['user-2'],
+    deadline: new Date(),
+    createdBy: 'user-2',
     createdAt: new Date(),
     updatedAt: new Date(),
   },
@@ -126,11 +144,11 @@ describe('useClients hook', () => {
       expect(result.current.clients.every(c => c.type === 'individual')).toBe(true);
     });
 
-    it('should filter by type organization', () => {
-      const { result } = renderHook(() => useClients({ type: 'organization' }));
+    it('should filter by type business', () => {
+      const { result } = renderHook(() => useClients({ type: 'business' }));
 
       expect(result.current.clients).toHaveLength(1);
-      expect(result.current.clients[0].type).toBe('organization');
+      expect(result.current.clients[0].type).toBe('business');
     });
 
     it('should filter by search term in name', () => {

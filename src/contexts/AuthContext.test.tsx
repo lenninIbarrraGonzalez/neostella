@@ -18,6 +18,7 @@ const mockStoredUser: User = {
   password: 'password123',
   name: 'Test User',
   role: 'admin',
+  preferences: { language: 'en', theme: 'light' },
   isActive: true,
   createdAt: new Date(),
 };
@@ -30,6 +31,7 @@ const mockUsers: User[] = [
     password: 'password123',
     name: 'Inactive User',
     role: 'attorney',
+    preferences: { language: 'en', theme: 'light' },
     isActive: false,
     createdAt: new Date(),
   },

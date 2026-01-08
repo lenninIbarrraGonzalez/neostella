@@ -356,7 +356,7 @@ describe('validate', () => {
   });
 
   it('should handle empty data object', () => {
-    const data = {};
+    const data: Record<string, string> = {};
     const rules = {
       email: [validators.required],
     };

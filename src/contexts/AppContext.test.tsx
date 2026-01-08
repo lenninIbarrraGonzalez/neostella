@@ -39,8 +39,11 @@ const mockCase: Case = {
   description: 'Test Description',
   type: 'personal_injury',
   status: 'new',
+  priority: 'medium',
   clientId: 'client-1',
   assignedTo: ['user-1'],
+  deadline: new Date(),
+  createdBy: 'user-1',
   createdAt: new Date(),
   updatedAt: new Date(),
 };
@@ -50,7 +53,9 @@ const mockClient: Client = {
   name: 'Test Client',
   email: 'client@example.com',
   phone: '123-456-7890',
+  address: '123 Main St',
   type: 'individual',
+  notes: 'Test notes',
   createdAt: new Date(),
   updatedAt: new Date(),
 };
@@ -151,8 +156,11 @@ describe('AppContext', () => {
           description: 'Description',
           type: 'auto_accident',
           status: 'new',
+          priority: 'high',
           clientId: 'client-1',
           assignedTo: ['user-1'],
+          deadline: new Date(),
+          createdBy: 'user-1',
         });
       });
 
@@ -183,8 +191,11 @@ describe('AppContext', () => {
           description: 'Description',
           type: 'personal_injury',
           status: 'new',
+          priority: 'medium',
           clientId: 'client-1',
           assignedTo: ['user-1'],
+          deadline: new Date(),
+          createdBy: 'user-1',
         });
       });
 
@@ -273,7 +284,9 @@ describe('AppContext', () => {
           name: 'New Client',
           email: 'new@example.com',
           phone: '555-555-5555',
+          address: '456 Oak Ave',
           type: 'individual',
+          notes: 'New client notes',
         });
       });
 
@@ -546,7 +559,7 @@ describe('AppContext', () => {
         userId: 'user-1',
         title: 'Test Notification',
         message: 'Test message',
-        type: 'info' as const,
+        type: 'deadline' as const,
         read: false,
         createdAt: new Date(),
       };
@@ -589,8 +602,11 @@ describe('AppContext', () => {
           description: 'Description',
           type: 'personal_injury',
           status: 'new',
+          priority: 'medium',
           clientId: 'client-1',
           assignedTo: ['user-1'],
+          deadline: new Date(),
+          createdBy: 'user-1',
         });
       });
 
@@ -668,8 +684,11 @@ describe('AppContext', () => {
           description: 'Description',
           type: 'auto_accident',
           status: 'new',
+          priority: 'high',
           clientId: 'client-1',
           assignedTo: ['user-1'],
+          deadline: new Date(),
+          createdBy: 'user-1',
         });
       });
 
@@ -693,7 +712,9 @@ describe('AppContext', () => {
           name: 'New Client',
           email: 'new@example.com',
           phone: '555-555-5555',
+          address: '789 Pine St',
           type: 'individual',
+          notes: 'Some notes',
         });
       });
 
