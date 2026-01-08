@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -11,6 +10,9 @@ import './i18n';
 import { AuthProvider } from './contexts/AuthContext';
 import { AppProvider } from './contexts/AppContext';
 import { initializeSeedData } from './services/seedData';
+
+// Initialize seed data BEFORE React renders
+initializeSeedData();
 
 import AuthGuard from './guards/AuthGuard';
 import RoleGuard from './guards/RoleGuard';
@@ -36,10 +38,6 @@ import Settings from './pages/settings/Settings';
 import UserManagement from './pages/settings/UserManagement';
 
 function App() {
-  useEffect(() => {
-    initializeSeedData();
-  }, []);
-
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />

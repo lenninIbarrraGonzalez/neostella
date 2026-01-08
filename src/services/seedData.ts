@@ -1,5 +1,5 @@
 import { User, Client, Case, Task, Activity, Note, TimeEntry } from '../types';
-import { setStorageItem, getStorageItem } from './storage';
+import { setStorageItem, getStorageItem, removeStorageItem } from './storage';
 import { STORAGE_KEYS } from '../constants/storageKeys';
 import { addDays, subDays } from 'date-fns';
 
@@ -352,18 +352,14 @@ export function initializeSeedData(): boolean {
   setStorageItem(STORAGE_KEYS.NOTES, notes);
   setStorageItem(STORAGE_KEYS.TIME_ENTRIES, timeEntries);
   setStorageItem(STORAGE_KEYS.NOTIFICATIONS, []);
-
-  localStorage.setItem(STORAGE_KEYS.SEED_INITIALIZED, 'true');
+  setStorageItem(STORAGE_KEYS.SEED_INITIALIZED, 'true');
 
   return true;
 }
 
 export function resetToSeedData(): void {
-  localStorage.removeItem(STORAGE_KEYS.SEED_INITIALIZED);
-  localStorage.removeItem(STORAGE_KEYS.CURRENT_USER);
-
   Object.values(STORAGE_KEYS).forEach(key => {
-    localStorage.removeItem(key);
+    removeStorageItem(key);
   });
 
   initializeSeedData();
